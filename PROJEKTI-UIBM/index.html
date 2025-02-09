@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFT</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body id="FFT">
+    <nav class="lh-navbar">
+		<div class="lh-navdiv">
+			<div class="lh-logo"><a href="#"><img class="lh-imglogo" src="burger.jpg" alt=""></a> </div>
+            <form class="lh-search-bar" action="/search" method="get">
+                <input class="lh-search" type="text" placeholder="Search..." name="query">
+                <button class="lh-search-button" type="submit">Search</button>
+            </form>
+			<ul>
+                
+				<button class="lh-button1"><a href="menu.html">Menu</a></button>
+				<button class="lh-button2"><a href="contact.html">Contact</a></button>
+				<button class="lh-button3"><a href="help.html">Help</a></button>
+				<button class="lh-button4"><a href="signin.html">SignIn</a></button>
+				<button class="lh-button5"><a href="signup.html">SignUp</a></button>
+			</ul>
+            
+		</div>
+	</nav>
+    
+    <div class="lh-welcome-section">
+        <h1>Welcome to <span>Fast food Trimi</span>! 🍔🍟🥤</h1>
+        <p>Craving something delicious? You’ve come to the right place! At <b>Fast Food Trimi</b>, we serve mouthwatering fast food made with fresh ingredients, bold flavors, and lots of love.</p>
+        <p>👇 <b>Check out our best offers below or explore our full menu for more delicious options!</b> 👇</p>
+    </div>
+    <div class="lh-button-container">
+        <button class="lh-menu-offerts" onclick="scrollToOffers()">Check Offers</button>
+        <a href="menu.html"><button class="lh-menu-offerts">Menu</button></a>
+    </div>
+</div>
+
+    <div id="ofertat" class="lh-container">
+        <div class="lh-column">
+            <h1 class="lh-offerts-title">Big Bite Deal</h1>
+            <img class="lh-oferta1" src="oferta1.jpg" alt="">
+            <h3>🔥 The Ultimate Combo 🔥</h3>
+            <h4>Craving a delicious feast? Get ready for the perfect fast-food combo! This mouthwatering deal includes:</h6>
+                <p>🍔 Juicy Burger – A perfectly grilled patty with fresh toppings and a soft bun.</p>
+                <p>🥤 Refreshing Coca-Cola – Ice-cold and fizzy to quench your thirst.</p>
+                <p>🍟 Crispy Fries – Golden and crunchy, served hot and fresh.</p>
+                <p>🍗 Tasty Chicken Fingers – Tender, crispy, and packed with flavor.</p>
+                <p>All this in one amazing meal at a great price! Don’t miss out—grab yours today! 🍔🍟🥤🍗</p>
+                <button class="lh-order-button">order</button>
+        </div>
+        <div class="lh-column">
+            <h1 class="lh-offerts-title">Chow Down Deal</h1>
+            <img class="lh-oferta1" src="oferta2.jpg" alt="">
+            <h3>🔥 Trio Combo Deal 🔥</h3>
+            <h4>Satisfy your cravings with this all-time favorite meal! This delicious combo includes:</h4>
+            <p>🍔 Juicy Burger – A perfectly grilled patty with fresh toppings and a soft bun.</p>
+            <p>🍟 Crispy Fries – Golden, crunchy, and served hot and fresh.</p>
+            <p>🥤 Refreshing Coca-Cola – Ice-cold and fizzy to complete your meal.</p>
+            <p>The perfect trio for a quick, tasty, and satisfying bite! Grab yours today! 🍔🍟🥤</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button class="lh-order-button">order</button>
+        </div>
+        <div class="lh-column">
+            <h1 class="lh-offerts-title">Classic Combo</h1>
+            <img class="lh-oferta1" src="oferta3.jpg" alt="">
+            <h3>🔥 The Classic Combo 🔥</h3>
+            <h4>Simplicity at its best! Enjoy a classic, satisfying meal with:</h4>
+            <p>🍔 Juicy Burger – A perfectly grilled patty with fresh toppings and a soft bun.</p>
+            <p>🍟 Crispy Fries – Golden, crunchy, and served hot and fresh.</p>
+            <p>A perfect combo for a quick and delicious bite! Grab yours today! 🍔🍟</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button class="lh-order-button">order</button>
+
+        </div>
+    </div>
+    
+    <script>
+        function scrollToOffers() {
+            document.getElementById("ofertat").scrollIntoView({ behavior: "smooth" });
+        }
+        </script>
+        <footer>
+            <div class="lh-footer-container">
+              <div class="lh-footer-logo">
+                <h2>FastBites</h2>
+              </div>
+              <div class="lh-footer-links">
+                <a href="menu.html">Menu</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+              </div>
+              <div class="lh-footer-social">
+                <a href="#"><i class="lh-fa fa-facebook"></i></a>
+                <a href="#"><i class="lh-fa fa-instagram"></i></a>
+                <a href="#"><i class="lh-fa fa-twitter"></i></a>
+              </div>
+              <div class="lh-footer-contact">
+                <p>Email: info@fastbites.com</p>
+                <p>Phone: (123) 456-7890</p>
+              </div>
+            </div>
+            <p class="lh-footer-copy">&copy; 2025 FastBites. All Rights Reserved.</p>
+          </footer>
+          
+</body>
+</html>
